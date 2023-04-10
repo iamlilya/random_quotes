@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+.container{
+    height: 100vh;
+    width: 95%;
+    display: flex;
+}
+.quotes{
+    border: 10px solid #f4d1ea;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 900px;
+    margin: auto;
+    padding: 0 50px;
+    color: gray;
+    background-color: aliceblue;
+}
+.btn{
+    margin: 50px;
+    color:gray;
+    font-size: 1.5rem;
+    border: none;
+}
+.quotes p, .quotes h3{
+    font-size: 1.5rem;
+}
+@media(max-width:450px){
+    .quotes p, .quotes h3{
+        font-size: 1.5rem;
+}
+}
